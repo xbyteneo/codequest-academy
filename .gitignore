@@ -1,0 +1,40 @@
+# Sistema e SO
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Ambientes e Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs e Temporários
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node / Dependências futuras
+node_modules/
+dist/
+build/
+.cache/
+
+# Arquivos de ambiente e segredos
+.env
+.env.local
+.env.*.local
+
+# Builds de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Builds de Arduino
+*.hex
+*.elf

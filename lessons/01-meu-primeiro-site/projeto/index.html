@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Primeiro Site — Universo Geek</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================================== -->
+  <!-- CABEÇALHO / NAVEGAÇÃO                          -->
+  <!-- ============================================== -->
+  <header class="navbar">
+    <div class="logo">
+      <span class="logo-icone">⚡</span>
+      <span class="logo-texto">DevPlay</span>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#inicio" class="ativo">Início</a></li>
+        <li><a href="#destaques">Destaques</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============================================== -->
+    <!-- SEÇÃO PRINCIPAL (HERO)                         -->
+    <!-- ============================================== -->
+    <section id="inicio" class="hero">
+      <div class="badge">🚀 Nível 1 Desbloqueado</div>
+
+      <!-- 🎯 DESAFIO 1: Mude o título principal abaixo para o que você quiser! -->
+      <h1 class="hero-titulo">Bem-vindo ao Meu Universo!</h1>
+
+      <!-- 🎯 DESAFIO 2: Escreva uma frase sua aqui no parágrafo -->
+      <p class="hero-subtitulo">
+        Este é o meu primeiro site oficial feito na aula de programação. 
+        Aqui você vai encontrar meus jogos favoritos, curiosidades e meus próximos projetos no mundo dev!
+      </p>
+
+      <div class="hero-botoes">
+        <!-- 🎯 DESAFIO 3: Troque o texto deste botão para uma chamada legal -->
+        <button class="btn btn-primario" onclick="alert('Parabéns! Você clicou no botão do seu próprio site!')">
+          Explorar Agora ✨
+        </button>
+        <a href="#destaques" class="btn btn-secundario">Ver Cards</a>
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- SEÇÃO DE CARDS / DESTAQUES                     -->
+    <!-- ============================================== -->
+    <section id="destaques" class="destaques">
+      <h2 class="secao-titulo">Meus Destaques</h2>
+      <p class="secao-subtitulo">Três coisas que me definem hoje</p>
+
+      <div class="grid-cards">
+        <!-- Card 1 -->
+        <article class="card">
+          <div class="card-icone">🎮</div>
+          <span class="card-tag">Jogos</span>
+          <h3 class="card-titulo">Top Games</h3>
+          <p class="card-descricao">
+            Minecraft, Valorant e RPGs de mundo aberto. A arte de explorar mundos e criar estratégias com os amigos.
+          </p>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <div class="card-icone">🎧</div>
+          <span class="card-tag">Música</span>
+          <h3 class="card-titulo">Trilha Sonora</h3>
+          <p class="card-descricao">
+            Trap, Lo-fi e rock para manter a concentração nos estudos e na jogatina até tarde da noite.
+          </p>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+          <div class="card-icone">💻</div>
+          <span class="card-tag">Tecnologia</span>
+          <h3 class="card-titulo">Minha Jornada Dev</h3>
+          <p class="card-descricao">
+            Aprendendo a programar do zero para criar meus próprios games, aplicativos e ideias criativas.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================================== -->
+    <!-- BARRA DE ESTATÍSTICAS / XP                     -->
+    <!-- ============================================== -->
+    <section class="status-bar">
+      <div class="status-item">
+        <span class="status-numero">1</span>
+        <span class="status-legenda">Site Criado</span>
+      </div>
+      <div class="status-item">
+        <span class="status-numero">+100</span>
+        <span class="status-legenda">Pontos de XP</span>
+      </div>
+      <div class="status-item">
+        <span class="status-numero">∞</span>
+        <span class="status-legenda">Ideias para o Futuro</span>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================== -->
+  <!-- RODAPÉ                                         -->
+  <!-- ============================================== -->
+  <footer class="rodape">
+    <p>Criado com orgulho por mim na aula de <strong>code-lessons</strong> 🚀</p>
+    <p class="rodape-sub">HTML5 & CSS3 Puro • Feito para a web</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "aluno": "Estudante",
+  "licao_atual": "01-meu-primeiro-site",
+  "etapa_atual": 1,
+  "status": "nao_iniciado",
+  "tema_escolhido": null,
+  "licoes_completadas": [],
+  "historico_desafios": {
+    "01-meu-primeiro-site": {
+      "desafio_1_titulo": false,
+      "desafio_2_texto": false,
+      "desafio_3_botao": false,
+      "desafio_final_css": false
+    }
+  },
+  "ultima_atualizacao": "2026-11-17"
+}
